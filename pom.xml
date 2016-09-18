@@ -13,6 +13,9 @@
                 <groupId>com.github.trecloux</groupId>
                 <artifactId>yeoman-maven-plugin</artifactId>
                 <version>0.5</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
