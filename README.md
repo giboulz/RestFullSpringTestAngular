@@ -10,3 +10,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+
+
+mvn -B archetype:generate  -DarchetypeGroupId=com.sun.jersey.archetypes     -DarchetypeArtifactId=jersey-quickstart-webapp     -DgroupId=com.github.trecloux     -DartifactId=yo-jaxrs-tutorial     -Dversion=0.1-SNAPSHOT
